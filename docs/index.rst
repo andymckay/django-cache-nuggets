@@ -63,12 +63,3 @@ False
 True   # Exists and cleared
 >>> lib.Token.pop('d7e6c05d-9313-4fd0-ae32-84f93d826f29')
 False  # No longer exists
-
-
-Note: because of Django settings files, all these imports are wrong. Grrr.
-
-.. autoclass:: cache_nuggets.docs.Token
-.. autoclass:: cache_nuggets.docs.guard
-.. autoclass:: cache_nuggets.docs.memoize
-.. autoclass:: cache_nuggets.docs.memoize_key
-.. autoclass:: cache_nuggets.docs.memoize_get
